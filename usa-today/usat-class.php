@@ -1,4 +1,12 @@
 <?php
+/**
+ * The core class for appending the most recent post to all article/post types.
+ *
+ * @link       www.usatoday.com
+ * @since      1.0.0
+ * @package    usa-today
+ * @author     Michael Fenimore <mfenimore70@gmail.com>
+ */
 
 if ( !class_exists( 'Usa_Today' ) ) {
 	class Usa_Today {
