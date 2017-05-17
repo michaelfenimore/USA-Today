@@ -1,0 +1,66 @@
+#usat_main_container {
+	background-color: #FFF;
+	overflow: hidden;
+	padding: 20px;
+}
+#usat_main_container .usat-thumbnail {
+	background-color: #eee;
+	float: left;
+	margin-right: 20px;
+}
+#usat_main_container .usat-thumbnail img {
+	border-radius: 3px;
+	max-height: 150px;
+	max-width: 186px;
+}
+#usat_main_container .usat-category {
+	color: #bbb;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+#usat_main_container .usat-category .usat-time.mini {
+	display: none;
+}
+#usat_main_container h2.usat-title {
+	font: bold 26px/26px Arial, Helvetica, sans-serif;
+	color: #333;
+}
+#usat_main_container .usat-metadata {
+	color: #999;
+	display: block;
+}
+#usat_main_container .usat-byline {
+	font: normal 13px/22px 'MS Serif', 'New York', serif;
+}
+#usat_main_container .usat-metadata .usat-byline .usat-name {
+	color: red;
+}
+#usat_main_container .usat-metadata .usat-time {
+	font-style: italic;
+}
+
+@media screen and (max-width: 727px) {
+	#usat_main_container .usat-thumbnail {
+		margin-right: 15px;
+	}
+	#usat_main_container .usat-thumbnail img {
+		max-height: 100px;
+		max-width: 100px;
+	}
+	#usat_main_container h2.usat-title {
+		font: bold 16px/17px Arial, Helvetica, sans-serif;
+	}
+	#usat_main_container .usat-category {
+		font-size: 9px;
+		margin-top: 5px;
+	}
+	#usat_main_container .usat-metadata {
+		display: none;
+	}
+	#usat_main_container .usat-category .usat-time.mini {
+		display: inline;
+		font-style: italic;
+		text-transform: none;
+	}
+}
